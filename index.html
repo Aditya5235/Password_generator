@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="password">
+
+
+        <div class="  pass-box     h-auto item-center justify-center     bg-yellow-100 block">
+            <div class="    ">
+
+                <div>
+                    <sapn id="pass-box" class="  Block block justify-center   p-6 rounded mb-8  "> </sapn>
+                    <div class="inputs">
+                        <lable class=" inline">Enter the length of the password</lable>
+                        <input type="number" value="8" max="30" min="2" class=" block " id="lenth" placeholder="your password">
+                    </div>
+                    <div class="flex-box">
+                        <div class="inputs">
+                            <lable>chose the upprecase charactor</lable>
+                            <input type="checkbox" checked name="" id="upperCase">
+                        </div>
+                        <div class="inputs">
+
+
+
+                            <lable>chose the lowercase charactor</lable>
+                            <input type="checkbox" name="" checked id="lowerCase">
+                        </div>
+                    </div>
+                    <div class="flex-box">
+                        <div class="inputs">
+                            <lable>chose the special charactor</lable>
+                            <input type="checkbox" name="" id="specialCase" checked>
+                        </div>
+
+                        <div class="inputs">
+                            <lable>choose the number charactor</lable>
+                            <input type="checkbox" name=" " id="numberCase" checked>
+                        </div>
+
+                    </div>
+                    <div class=" ">
+                        <button id="btn" class="border-1 border-green-300 position-absolute left-1/2 m-6 p-4   text-white">Generate</button>
+                    </div>
+                    <p class="font-bold ">* To generate password chose charecter and click to the genrate button </p>
+
+                    <!--        class ="border-2 border-green-500 m-4 ",-->
+
+                </div>
+            </div>
+            <script src="script.js"></script>
+
+
+</body></html>

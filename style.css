@@ -1,0 +1,49 @@
+.pass-box {
+    margin: 0px auto;
+    padding: 20px;
+    height: auto;
+    background-color: rgba(247, 247, 247, 0.18);
+    backdrop-filter: blur(7px);
+    color: #ffffff;
+    width: 50%;
+}
+
+.password {
+    background: url(https://images.unsplash.com/photo-1471039497385-b6d6ba609f9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    padding-top: 30px;
+}
+
+input {
+    color: black
+}
+
+.inputs {
+    border: 3px solid rgba(133, 87, 235, 0.47);
+    padding: 10px 6px;
+    margin: 10px
+}
+
+#btn {
+    padding: 10px 20px;
+    background-color: #9332ed;
+    border-radius: 10px;
+    transition: 0.2s ease-out;
+}
+
+.Block {
+    border: 3px solid #6f6fdb;
+}
+
+#btn:hover {
+    background-color: #4242ef;
+    transform: translateY(-5px)
+}
+
+.flex-box {
+    display: flex;
+}
